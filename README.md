@@ -18,7 +18,7 @@ export default {
                 content() { return [
                     '/' + '* TEAM *' + '/',
                     'Developer: Matt Carter',
-                    'Contact: team@tera-tools.com',
+                    'Contact: contact@acme.com',
                     'Location: Gold Coast, Australia',
                     '',
                     '',
