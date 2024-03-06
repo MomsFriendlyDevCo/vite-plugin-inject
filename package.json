@@ -23,10 +23,6 @@
     "url": "https://github.com/MomsFriendlyDevCo/vite-plugin-inject/issues"
   },
   "homepage": "https://github.com/MomsFriendlyDevCo/vite-plugin-inject#readme",
-  "engineStrict": true,
-  "engines": {
-    "node": ">=20.x"
-  },
   "devDependencies": {
     "@momsfriendlydevco/eslint-config": "^1.0.9",
     "eslint": "^8.57.0"
