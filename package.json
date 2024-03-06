@@ -1,0 +1,46 @@
+{
+  "name": "vite-plugin-inject",
+  "version": "1.0.0",
+  "description": "Inject files into Vite output",
+  "keywords": [
+    "vite",
+    "vite-plugin"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "type": "module",
+  "exports": {
+    ".": "./lib/vite-plugin-inject.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MomsFriendlyDevCo/vite-plugin-inject.git"
+  },
+  "author": "Matt Carter <matt@mfdc.biz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MomsFriendlyDevCo/vite-plugin-inject/issues"
+  },
+  "homepage": "https://github.com/MomsFriendlyDevCo/vite-plugin-inject#readme",
+  "engineStrict": true,
+  "engines": {
+    "node": ">=20.x"
+  },
+  "devDependencies": {
+    "@momsfriendlydevco/eslint-config": "^1.0.9",
+    "eslint": "^8.57.0"
+  },
+  "eslintConfig": {
+    "extends": "@momsfriendlydevco",
+    "env": {
+      "es6": true,
+      "node": true,
+      "mocha": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 13,
+      "sourceType": "module"
+    }
+  }
+}
