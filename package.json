@@ -24,19 +24,9 @@
   },
   "homepage": "https://github.com/MomsFriendlyDevCo/vite-plugin-inject#readme",
   "devDependencies": {
-    "@momsfriendlydevco/eslint-config": "^1.0.9",
-    "eslint": "^8.57.0"
+    "eslint": "^9.8.0"
   },
-  "eslintConfig": {
-    "extends": "@momsfriendlydevco",
-    "env": {
-      "es6": true,
-      "node": true,
-      "mocha": true
-    },
-    "parserOptions": {
-      "ecmaVersion": 13,
-      "sourceType": "module"
-    }
+  "dependencies": {
+    "@momsfriendlydevco/eslint-config": "^2.0.3"
   }
 }
