@@ -73,3 +73,11 @@ API
 This plugin exposes a single function which takes an array of files to output.
 
 Each file should be an object composed of a `name` string and an Async `content` function which returns the content. The content will be collapsed into a line-delimited string if an array is returned.
+
+File object definitions:
+
+| Property  | Type       | Default        | Description                                                                      |
+|-----------|------------|----------------|----------------------------------------------------------------------------------|
+| `name`    | `String`   |                | The file name, nested files can be noted with slashes                            |
+| `content` | `Function` |                | A function which can return the string content to output or an array of the same |
+| `mime`    | `String`   | `'text/plain'` | The mime type to serve (when in dev mode)                                        |
